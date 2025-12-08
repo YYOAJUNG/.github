@@ -337,7 +337,7 @@ NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
 
 ---
 
-## 📚 문서
+## 문서
 
 ### 백엔드 문서
 - [백엔드 README](budgetops-be/README.md) - 백엔드 개요 및 실행 가이드
