@@ -151,11 +151,6 @@ budgetops/
 │   ├── store/                 # 상태 관리 (Zustand)
 │   └── README.md
 │
-├── budgetops-ai/          # AI 서비스 (Python)
-│   ├── api/                   # FastAPI 서버
-│   ├── registry/              # 규칙 관리
-│   └── README.md
-│
 ├── PROJECT_SUMMARY.md     # 프로젝트 요약
 ├── PROJECT_FEATURES.md    # 기능 상세
 └── README.md              # 이 파일
