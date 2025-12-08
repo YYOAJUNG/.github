@@ -291,7 +291,7 @@ NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
 
 ---
 
-## 🏛 아키텍처
+## 아키텍처
 
 ### 시스템 아키텍처
 ```
