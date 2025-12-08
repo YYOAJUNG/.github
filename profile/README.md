@@ -217,7 +217,7 @@ docker build -t budgetops-be .
 docker run -p 8080:8080 budgetops-be
 ```
 
-**API 서버**: http://localhost:8080
+**API 서버**: http://api.budgetops.work
 
 ### 3. 프론트엔드 실행
 ```bash
@@ -234,7 +234,7 @@ npm run build
 npm start
 ```
 
-**웹 애플리케이션**: http://localhost:3000
+**웹 애플리케이션**: http://budgetops.work
 
 ### 4. AI 서비스 실행 (선택사항)
 ```bash
@@ -251,7 +251,7 @@ pip install -r requirements.txt
 uvicorn api.main:app --reload
 ```
 
-**AI API**: http://localhost:8000
+**AI API**: http://api.budgetops.work
 
 ### 5. 환경 변수 설정
 
@@ -259,10 +259,6 @@ uvicorn api.main:app --reload
 
 **budgetops-be/.env**
 ```env
-# Database
-SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/budgetops
-SPRING_DATASOURCE_USERNAME=postgres
-SPRING_DATASOURCE_PASSWORD=your_password
 
 # JWT
 JWT_SECRET=your_jwt_secret
@@ -280,7 +276,7 @@ STRIPE_API_KEY=your_stripe_api_key
 
 **budgetops-fe/.env.local**
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:8080/api
+NEXT_PUBLIC_API_URL=http://api.budgetops.work/api
 NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
 ```
 
