@@ -11,7 +11,6 @@
 [![Frontend](https://img.shields.io/badge/frontend-Next.js%2014-black.svg)](budgetops-fe/)
 [![AI](https://img.shields.io/badge/AI-Claude%20%26%20Gemini-purple.svg)](budgetops-ai/)
 
-[📖 문서](#-문서) • [🚀 빠른 시작](#-빠른-시작) • [🏗 아키텍처](#-아키텍처) • [✨ 주요 기능](#-주요-기능)
 
 </div>
 
